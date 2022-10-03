@@ -1,0 +1,17 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "RalewayExtraBold";
+  src: local("RalewayExtraBold"),
+    url("../assets/fonts/Raleway/static/Raleway-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: local("RobotoBold"),
+    url("../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}

@@ -1,0 +1,14 @@
+.title {
+  font-family: RalewayExtraBold;
+  font-size: 36px;
+  color: #323232;
+  padding-top: 62px;
+  margin-left: 64px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 64px;
+  margin-right: 64px;  
+}

@@ -1,0 +1,19 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  background: #EAEAEA;
+  border: 1px solid rgba(50,50,50,0.08);
+  height: 192px;
+  width: 100%;
+  background-image: url('../public/images/target.svg');
+  background-repeat: no-repeat;
+  background-position: -144px 48px;
+}
+
+.copyright {
+  margin-top: 161px;
+  margin-left: 192px;
+  font-family: RobotoBold;
+  font-size: 16px;
+  color: rgba(50,50,50,0.64);
+}
