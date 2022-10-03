@@ -5,13 +5,17 @@
 }
 
 .navigationBar {
-  margin-top: 19px;
-  margin-left: 64px;
-  margin-right: 64px;
+  width: 1024px;
+  margin: auto;
 }
 
 .logo {
+  margin-left: 64px;
   float: left;
+}
+
+.navigationList {
+  margin-right: 64px;
 }
 
 .navigationLinks {

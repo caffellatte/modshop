@@ -1,3 +1,8 @@
+.category {
+  width: 1024px;
+  margin: auto;
+}
+
 .title {
   font-family: RalewayExtraBold;
   font-size: 36px;
@@ -7,9 +12,10 @@
 }
 
 .products {
-  width: 100%;
+  width: 900px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  justify-content: space-between;
+  column-gap: 18px;
+  margin-left: 64px;
+  margin-right: 64px;
 }

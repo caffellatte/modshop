@@ -9,7 +9,7 @@ export default function Header({page}) {
         <Link href="/">
           <img className={styles.logo} src='./images/modshopLogo.svg' alt='MODSHOP Logo'/>
         </Link>
-        <ul>
+        <ul className={styles.navigationList}>
           <li className={styles.navigationLinks}>
             <Link href="/register">
               <a className={cn({

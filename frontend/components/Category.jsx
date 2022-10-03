@@ -3,7 +3,7 @@ import ProductCard from './ProductCard';
 
 export default function Category({ category, strapiURL }) {
   return (
-    <div>
+    <div className={styles.category}>
       <div className={styles.title}>
         {category.name}
       </div>
