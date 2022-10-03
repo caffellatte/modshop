@@ -7,8 +7,9 @@
 }
 
 .products {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 64px;
-  margin-right: 64px;  
+  justify-items: center;
+  justify-content: space-between;
 }
