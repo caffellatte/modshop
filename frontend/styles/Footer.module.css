@@ -8,6 +8,7 @@
   background-image: url('../public/images/target.svg');
   background-repeat: no-repeat;
   background-position: -144px 48px;
+  min-width: 1024px;
 }
 
 .copyright {
