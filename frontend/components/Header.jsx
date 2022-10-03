@@ -1,13 +1,21 @@
 import styles from '../styles/Header.module.css'
 import cn from 'classnames';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header({page}) {
   return (
     <div className={styles.header}>
       <div className={styles.navigationBar}>
         <Link href="/">
-          <img className={styles.logo} src='./images/modshopLogo.svg' alt='MODSHOP Logo'/>
+        <div className={styles.logo}>
+          <Image
+            src='/images/modshopLogo.svg'
+            alt='MODSHOP Logo'
+            width={190}
+            height={18}
+          />
+        </div>
         </Link>
         <ul className={styles.navigationList}>
           <li className={styles.navigationLinks}>
