@@ -3,10 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['0.0.0.0'],
+    domains: [process.env.imagesDomain],
   },
   publicRuntimeConfig: {
-    strapiURL: 'http://0.0.0.0:1337'
+    strapiURL: process.env.strapiURL
   }
 }
 
