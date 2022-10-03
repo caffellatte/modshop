@@ -7,8 +7,8 @@ export default function ProductCard({name, price, image}) {
     <div className={styles.productImage}>
       <Image
         src={image}
-        height={420}
-        width={288}
+        width={286}
+        height={413}
         alt={name}
       />
     </div>

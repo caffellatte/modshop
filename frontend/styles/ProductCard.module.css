@@ -1,7 +1,7 @@
 .productCard {
   margin-top: 17px;
-  width: 288px;
-  height: 488px;
+  width: 286px;
+  height: 486px;
   background-color: #FFFFFF;
   border: 1px solid rgba(50,50,50,0.16);
   border-radius: 4px;
@@ -9,15 +9,15 @@
 }
 
 .productImage {
-  width: 288px;
-  height: auto;
+  width: 286px;
+  height: 413px;
 }
 
 .name {
   font-family: RalewayExtraBold;
   font-size: 20px;
   color: #323232;
-  margin-top: 11px;
+  margin-top: 15px;
   margin-left: 16px;
 }
 

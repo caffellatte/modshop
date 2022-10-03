@@ -6,16 +6,8 @@
   height: 192px;
   background-image: url('../public/images/target.svg');
   background-repeat: no-repeat;
-  background-position: calc((100vw - 1024px) / 2 - 144px) 48px;
+  background-position: -144px 48px;
   min-width: 1024px;
-}
-
-.container {
-  width: 1024px;
-  margin: auto;
-  position: relative;
-  bottom: 0;
-  margin: auto;
 }
 
 .copyright {
